@@ -1,0 +1,34 @@
+# Configuration for grain growth simulation (no recrystallization)
+initial_microstructure:
+  type: ebsd
+  path: realistic_ebsd_data.csv  # Use the realistic EBSD data
+  description: Path to EBSD data CSV file
+
+material:
+  grain_boundary_energy: 1.0      # J/m^2
+  mobility_pre_exponential: 0.01  # m^4/(J·s)
+  activation_energy: 40000       # J/mol  
+  temperature: 1273               # K (900°C - higher temp for faster growth)
+
+thresholds:
+  min_misorientation: 1.0         # degrees - minimum to be a boundary
+  lagb_threshold: 2.0             # degrees - low angle boundary threshold
+  hagb_threshold: 10.0            # degrees - high angle boundary threshold
+
+energy:
+  stored_energy_uniform: 10000.0      # No stored energy for pure grain growth
+  use_kam_energy: True           # Disable KAM-based energy
+  kam_energy_factor: 100000.0          
+  max_kam_degrees: 15.0
+
+kinetics:
+  beta_factor: 5.0                # Higher value for faster kinetics
+
+grain_detection:
+  misorientation_threshold: 5.0   # degrees
+
+simulation:
+  max_time: 100.0               # Longer time for grain growth
+  max_steps: 100000                # More steps
+  save_interval: 100              # Save every 100 steps
+  output_directory: output_grain_growth1

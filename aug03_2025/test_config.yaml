@@ -1,0 +1,27 @@
+energy:
+  kam_energy_factor: 50000000.0
+  max_kam_degrees: 15.0
+  stored_energy_uniform: 10000000.0
+  use_kam_energy: true
+grain_detection:
+  misorientation_threshold: 5.0
+initial_microstructure:
+  description: Path to EBSD data CSV file
+  path: realistic_ebsd_data.csv
+  type: ebsd
+kinetics:
+  beta_factor: 0.5
+material:
+  activation_energy: 140000.0
+  grain_boundary_energy: 0.5
+  mobility_pre_exponential: 0.0001
+  temperature: 873
+simulation:
+  max_steps: 100
+  max_time: 100.0
+  output_directory: test_simulation_output
+  save_interval: 25
+thresholds:
+  hagb_threshold: 15.0
+  lagb_threshold: 2.0
+  min_misorientation: 1.0

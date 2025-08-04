@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<VTKFile type="ImageData" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <ImageData WholeExtent="0 10 0 10 0 10" Origin="0 0 0" Spacing="0.0001 0.0001 0.0001" Direction="1 0 0 0 1 0 0 0 1">
+    <FieldData>
+      <Array type="String" Name="comments" NumberOfTuples="2" format="binary">
+        AQAAAACAAABpAAAAYgAAAA==eF5LScxNLM7WC0otLs0p0UutKMgvKokPC/FWKDPWM9AzUtAwMjAy1TUw1zUyUDCwsDKxtDI01TawNDDQZHBx9HUM9o5PL8pMgag2RKg2tFQwMrYyNrMyAao2AKkGACSpGkE=
+      </Array>
+    </FieldData>
+  <Piece Extent="0 10 0 10 0 10">
+    <PointData>
+      <DataArray type="Float32" Name="u" NumberOfComponents="3" format="binary" RangeMin="0" RangeMax="0">
+        AQAAAACAAABkPgAAJQAAAA==eF7twQEBAAAAgiD/r25IQAEAAAAAAAAAAAAAAAAAAPBiPmQAAQ==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0
+          </Value>
+          <Value index="1">
+            0
+          </Value>
+        </InformationKey>
+      </DataArray>
+    </PointData>
+    <CellData>
+      <DataArray type="Float32" Name="phase/mechanical/F / 1" NumberOfComponents="9" format="binary" RangeMin="1.7320508075688772" RangeMax="1.7320508075688772">
+        AgAAAACAAACgDAAAgAAAAC8AAAA=eF7tyrEJAAAIBLHfzNUc3VpwAsl1B0m6srqeYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYRiGYX6bARFc9f94Xu3KoQ0AMAwDQW+W1Tp6VRBQKTTsntm6pDuVr7enj2EYhmEYhmEYZsdcahrItA==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            1.7320508076
+          </Value>
+          <Value index="1">
+            1.7320508076
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float32" Name="phase/mechanical/F_e / 1" NumberOfComponents="9" format="binary" RangeMin="1.7320507878070193" RangeMax="1.7320508284251712">
+        AgAAAACAAACgDAAA4gIAAHcAAAA=eF7t2T1qlFEUBmDFH8RCBIO9IDaBNKJgkfnAFWhjb6WFrYiNuAHtLWPlJpyp0mQBauUmsgFHIdg+8F0O59x7A0GRhznv+84wmeD51Ue78/33pf3X/s/l4u//vz7++7dRzf0bD5aDk6e7H7/vHj95/HB59+3O8vXzz+3ty182f7/Prrymx5lm7jzNNNNMM7J5e3i0fX54tj2992o5fvZi+fDp5u796cn36wfXlqNbm+XNy1+baaaZJr+Rz2xi5Ja8t/RqZEMxcqtXI/tEGslc0Uj3SCOZKxrp3spInl6N7NPKSJ6RjWwoRm5lM/IZqZWRDcVk6zXNNGte8/I4IxvZUIzc6tXIPq2M5KlopHs2I70ijWSuaOQzSaSRzBWNdI80krmike7ZjPTKZuQ9s1cj+4iRW9NMk8HM1/N6IxuKkVu9Gtkn0kjmbEZ6ZTPSK9JI5l6N7CNGbo1sZEMxcqtXI/tEGslc0Uj3ika6tzKSZ5ppMpj5el5vZEMxcqtXI/tEGsmczUivika6tzKSp1cj+4iRWyMb+b8kMXJrZCOv1VZG8lQ00r2ike6tjOSZZv3zJY8zspENxcitXo3s08pInl6N7BNpJHOkkcy9GtmnlZE8vRr5HaSVkTy9GtmnlZE8FY10jzSSuaKR98yKRrpHGsk8spkbrjeyoRi51auRfSKNZM5mpFc2I58BWpleNxQj+0QayVzRSPdsRnplM9Irm5Fe2Yz0ymakVzYjP5sqGukeaSTzyGZuuN7IhmLkVq9G9ok0kjmbkV7ZjPx8z2akVzYjvbIZ6ZXNSK+KRrpHGslc0Uj3SCOZKxrp3spInpGNbChGbsnnqF6NbChGbvVqZJ9WRvL0amSfSCPvLdmM9MpmpFdFI91bGcnTq5F9WhnJM7KRDcXIrZGNbChGbo1sZEMxcmua9c+FPM40MTvLZ/6KRvaJNPJcVDTSPdJI5opGukcaydyrkX3EyK0L8weULkpTeF5jYGBg+Mxiag/E+xlQQANYDCY+nNSocKjZiyx02n/tnpitpZmxffkKYftFfdf3CTDOtAPhU8wZRKkhxq5RNZTHBTHmjKoZDedRNaNqRtWMqqGnGmLKVWqpIcY9I1kNMWFIjBpi7BrJaogJQ2LUEGMXADYT+RE=
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            1.7320507878
+          </Value>
+          <Value index="1">
+            1.7320508284
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float32" Name="phase/mechanical/F_p / 1" NumberOfComponents="9" format="binary" RangeMin="1.7320507878070193" RangeMax="1.732050828425171">
+        AgAAAACAAACgDAAA4AIAAHYAAAA=eF7t2TFqVFEUBuCIUcRCBIO9IDaBNBLBIvPAFWhjb2UKWxEbcQPaW8bKTZip0mQBauUmZgOKYmH3wbsczrn3pkrxMef//xkmT9ztH293+8fL3u+f3d/ft3v//bxfdgOb+zceLI8fPVxuX/m0OTh7sn3z5c6f37/9vHvy+eP388urp/Q608ydp5lmmmlGNq8Pj85Pnj5frh9cW54dXp6/+3Bze3Rrs1zce7m8vTj7+urFj80000yT38gzmxi5Jd8tvRrZUIzc6tXIPpFGMlc00j3SSOaKRrq3MpKnVyP7tDKSZ2QjG4qRW9mMPCO1MrKhmGy9pplmzWdeXmdkIxuKkVu9GtmnlZE8FY10z2akV6SRzBWNPJNEGslc0Uj3SCOZKxrpns1Ir2xGvjN7NbKPGLk1zTQZzPw8rzeyoRi51auRfSKNZM5mpFc2I70ijWTu1cg+YuTWyEY2FCO3ejWyT6SRzBWNdK9opHsrI3mmmSaDmZ/n9UY2FCO3ejWyT6SRzNmM9KpopHsrI3l6NbKPGLk1spH/SxIjt0Y28lltZSRPRSPdKxrp3spInmnWv1/yOiMb2VCM3OrVyD6tjOTp1cg+kUYyRxrJ3KuRfVoZydOrkX+DtDKSp1cj+7Qykqeike6RRjJXNPKdWdFI90gjmUc2c8P1RjYUI7d6NbJPpJHM2Yz0ymbkGaCV6XVDMbJPpJHMFY10z2akVzYjvbIZ6ZXNSK9sRnplM/K3qaKR7pFGMo9s5obrjWwoRm71amSfSCOZsxnplc3I3/dsRnplM9Irm5Fe2Yz0qmike6SRzBWNdI80krmike6tjOQZ2ciGYuSWPEf1amRDMXKrVyP7tDKSp1cj+0Qa+W7JZqRXNiO9Khrp3spInl6N7NPKSJ6RjWwoRm6NbGRDMXJrZCMbipFb06x/L+R1ponZWZ75KxrZJ9LIe1HRSPdII5krGukeaSRzr0b2ESO3/plfo99J03heY2BgYPjMYrofhBlQQIM9VNyeYZipUeFQs7c0M7YXYJxpJ7LQaX/5CmEw+9o9MdtFfdf3nWLOIEoNMXaNqqE8LogxZ1TNaDiPqhlVM6pmVA091RBTrlJLDTHuGclqiAlDYtQQY9dIVkNMGBKjhhi7AJhA+ZE=
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            1.7320507878
+          </Value>
+          <Value index="1">
+            1.7320508284
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="UInt8" Name="phase/mechanical/IPFcolor_(1 0 0) / 8-bit RGB" NumberOfComponents="3" format="binary" RangeMin="255" RangeMax="396.85387739065874">
+        AQAAAACAAAC4CwAA3gAAAA==eF69lksOxCAMQ3PeOQWH7KqXYZCqVijYJqHMSFlUfSbY6deqGapSP/B8hP666nnsrRanVTuA211UICYIUt0ZUiOuXCJbndU1DT0rhiDtR+EEDrlQb+goyCaKlFg73RQKhOcx7yOASFPdWXiGiSIl1orOwpWwLSJDVO6bh9HIpqMGJno0AjGqOzNX2USle5SyVD+hcc9OIxCjojPzPKJpIv3OeUNTiXqNQIyKzinPKeoEy3REvcDIdxCGdZGns1rOKwxHEm2nNvuvY5MM5l2gNvO8JdE/a9f1/QLDYjBk
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            255
+          </Value>
+          <Value index="1">
+            396.85387739
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float32" Name="phase/mechanical/L_p / 1/s" NumberOfComponents="9" format="binary" RangeMin="0" RangeMax="0">
+        AgAAAACAAACgDAAANAAAABoAAAA=eF7twQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYgAAAAXhe7cExAQAAAMKg9U9tDQ+gAAAAPgwMoAAB
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0
+          </Value>
+          <Value index="1">
+            0
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float32" Name="phase/mechanical/O / 1" NumberOfComponents="4" format="binary" RangeMin="0.9999999714657157" RangeMax="1.0000000159877178">
+        AQAAAACAAACAPgAA8AEAAA==eF7t2bFJBEEUBuBr4pox2DOwALUAETEwsIiDwxoMrgQ7EIwswcDQ1MxYTMT0ko/Hm519621g8MHO+39ndgfB9dfrsFqttn8/V7v7zbqzP3Y3m/3Z+XCxf3y5Pn0b9HxvV++3+Li9/Xwfni6/h+eHu+H252RxcR/eJ4c+fF7n39rqp/WtrT6y5metfFnzs1Z+7z5z6xftq/VR6z6J3i/Z+cdm3c+9rfPV+tZWn979lB+18mTNz1r3h6z5WStf1vyslR+18qLW+9Xa1frM3dX2r9r5qo+s+VErL2rlyZrf2tX6VO+nPrLmZ638rJXfu89/c7X9q3a+6iNrftTKy1r5vftE+2n92O7993vU2r/e+6n8rJXfu0/U1fpV2z/1mVu/1n01v7XVZ+p+up+nvq/Vp3c/5cuan7Xer6yVL2v+2K7eZ+p+6iNrftTKi1rfp/5fp/lZq4+s+VkrP2rlRa28qJUXtfKiVl7U+h6zVr6s+WO7ep+p+6mPrPlRKy9qfY9RKy9q5UWtvKiVl7XyZc3PWvmy5met/N595Gg/3RetrX5a39rqM7d+Ou+slRe18rJWfu8+c+sX7av1Y3vp19Zz76f7NWudp6zfL2vly5qftfJlzW/tan3m1k999XxvV++3eN7W91rt/ftv/X4BadlUYA==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0.99999997147
+          </Value>
+          <Value index="1">
+            1.000000016
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float32" Name="phase/mechanical/P / Pa" NumberOfComponents="9" format="binary" RangeMin="0" RangeMax="0.000048475999086956625">
+        AgAAAACAAACgDAAAyQIAAF8AAAA=eF7t2T8uhHEQxnEJpUrcQKNS+Vc6hU64hEg0WndwCZGwGkegUug1HEFCyNupPN/kHZOZ+c3TbCSf7Mw8NrsrlpY6f+X4ZH3/+2Fzcfb1dDs9Xp2/7K1dbOxOP0+Pj1une+o5Ojrdc6fT6dTO+9H14u1yefvz43Bnejy4X71/f32+m36eHg9XbhZt2rSJb8h3NmLILPW+UjmkQ2LUnMoh/XgatW/WkNs9jdo3a8jtVkbtUjmkHyujdhk9pENi1JyIId+RrAzpkBh10xSyT5s2/23I65k8z8iGdEgMmVXVkH6sDNknoyG3RzPkLk9Dds5o1PcR75CdMxp1t3fIzhmNujtiyF3RDHnPrGpIP8SQWW3aRDD9ep5vSIfEkFlVDenH05CdoxlyVzRD7vI0ZOeqhvRDDJk1siEdEkNmVTWkH09Dds5oyO0ZDbndypB92rSJYPr1PN+QDokhs6oa0o+nITtHM+SujIbcbmXIPlUN6YcYMmtko/6PRENmjWzIa9XKkH0yGnJ7RkNutzJknzbzf1/keUY2pENiyKyqhvRjZcg+VQ3px9OQnT0N2bmqIf1YGbJPVaP+/rAM2aeqUd1YhuyT0ai7vUN2zmjIe2ZGQ273NGTnkU13ON+QDokhs6oa0o+nITtHM+SuaEZ9/lumaofEqG68Q3bOaNTdEUPuimbUTRFD7opm1E0RQ+6KZshnU0ZDbvc0ZOeRTXc435AOiSGzqhrSj6chO0cz5K5oRn22Rwy5K5pRN0UMuSuaUTdlDbnd06h9s4bc7mnUvllDbrcyapfRQzokRs2ZQr5HVTWkQ2LIrKqG9GNlyD5VDenH06j3lYghd0Uz6qasIbdbGbVL5ZB+rIzaZfSQDolRc0YP6ZAYNWf0kA6JUXM6Ot2zT6x6Jt/5MxrSj6dRv4esIbd7GrVv1pDbPY3at3JIP8SoOb/zA5ijxIl4XmNgGHkgPkHE4v9eje3lf89tBdGzq26YC9Urm4H4IPqsXqk5MWoI2TMKCIPRcKYPGA3nUTAKRsEooC4gplyllhpCbhnpgJgwJEYNIXtGOiAmDIlRQ8geEAAAPJ7D2w==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0
+          </Value>
+          <Value index="1">
+            4.8475999087e-05
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float32" Name="phase/mechanical/epsilon_V^0.0(F) / 1" NumberOfComponents="9" format="binary" RangeMin="0" RangeMax="0">
+        AgAAAACAAACgDAAANAAAABoAAAA=eF7twQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYgAAAAXhe7cExAQAAAMKg9U9tDQ+gAAAAPgwMoAAB
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0
+          </Value>
+          <Value index="1">
+            0
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float32" Name="phase/mechanical/epsilon_V^0.0(F_p) / 1" NumberOfComponents="9" format="binary" RangeMin="1.5700924586837752e-16" RangeMax="3.510833461522249e-16">
+        AgAAAACAAACgDAAA1gIAAGkAAAA=eF7t2TFuU0EUBdBp2ABrMBuhpaCmo2AFVDRsASrEAkiEqKjoEItBdHRI6ZEjUfwvMEffo6c3M+83Tqwjz703lvOjtNYete21//5vzy1jvj59/uHzw7enx88e3D/+/Pjl9t3di/vvz483n36d5HXKXDa1c5kyZcpMbzbX6/c/Tt9fvbk5f31+/Pbk5W2ZMmXyG7lnEyNnNftsmdLIhmLkrFmN7BNpJPOIRrpHGsk8opHuvYzkmdXIPr2M5FnZyIZi5KyEZnMdvWcTIxuKacl6lSnzL4Pv5/++zspGNhQjZ81qZJ9eRvKMaKR7NiO9Io1kHtE0uycJM5J5RCPdI41kHtFI92xGemUz+w5HP1dHNLKPGDmrTJkMpt7P1xvZUIycNauRfSKNZM5mpFc2I70ijWSe1cg+YuSslY1sKEbOmtXIPpFGMo9opPuIRrr3MpKnTJkMpt7P1xvZUIycNauRfSKNZM5mpNeIRrr3MpJnViP7iJGzVjYN/pckRs5a2ez3Ovp+FiN5RjTSfUQj3XsZyVPmsqmdrzeyoRg5a1Yj+/QykmdWI/tEGskcaSTzrEb26WUkz6ymwd8gvYzkmdXIPr2M5BnRSPdII5lHNPueRz9XsxnpHmkk88qmNrzeyIZi5KxZjewTaSRzNiO9spkG9wAdzeaaZUMxzfYJM5J5RCPdsxnplc1Ir2xGemUz0iubkV7ZzL7D0XuAbEa6RxrJvLKpDa83sqEYOWtWI/tEGsmczUivbKbB7/dsRnplM9Irm5Fe2Yz0GtFI90gjmUc00j3SSOYRjXTvZSTPykY2FCNn7a+j91ojGtlQjJw1q5F9ehnJM6uRfSJNs8+WVEZ6ZTPSa0Qj3XsZyTOrkX16GcmzspENxchZKxvZUIyctbKRDcXIWWUum9o5xnTceXMd/bsgm5F9Ik2zn8VwRrpHGsk8opHukUYyz2pkHzFy1p/nfgPiuf3LeF5jYIADVQZMgC42LNTs8U9YvF6oX8UpkhVMv16+denUrylgPohesvKTCjFqiLFrVA1+NaPhTB81o+E8qmZUzaiaUTXUVUNMuUotNcS4ZySrISYMiVFDjF0jWQ0xYUiMGmLsAgBHOtD3
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            1.5700924587e-16
+          </Value>
+          <Value index="1">
+            3.5108334615e-16
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float32" Name="phase/mechanical/sigma / Pa" NumberOfComponents="9" format="binary" RangeMin="0" RangeMax="0.000048475999086956625">
+        AgAAAACAAACgDAAAyQIAAF8AAAA=eF7t2T8uhHEQxnEJpUrcQKNS+Vc6hU64hEg0WndwCZGwGkegUug1HEFCyNupPN/kHZOZ+c3TbCSf7Mw8NrsrlpY6f+X4ZH3/+2Fzcfb1dDs9Xp2/7K1dbOxOP0+Pj1une+o5Ojrdc6fT6dTO+9H14u1yefvz43Bnejy4X71/f32+m36eHg9XbhZt2rSJb8h3NmLILPW+UjmkQ2LUnMoh/XgatW/WkNs9jdo3a8jtVkbtUjmkHyujdhk9pENi1JyIId+RrAzpkBh10xSyT5s2/23I65k8z8iGdEgMmVXVkH6sDNknoyG3RzPkLk9Dds5o1PcR75CdMxp1t3fIzhmNujtiyF3RDHnPrGpIP8SQWW3aRDD9ep5vSIfEkFlVDenH05CdoxlyVzRD7vI0ZOeqhvRDDJk1siEdEkNmVTWkH09Dds5oyO0ZDbndypB92rSJYPr1PN+QDokhs6oa0o+nITtHM+SujIbcbmXIPlUN6YcYMmtko/6PRENmjWzIa9XKkH0yGnJ7RkNutzJknzbzf1/keUY2pENiyKyqhvRjZcg+VQ3px9OQnT0N2bmqIf1YGbJPVaP+/rAM2aeqUd1YhuyT0ai7vUN2zmjIe2ZGQ273NGTnkU13ON+QDokhs6oa0o+nITtHM+SuaEZ9/lumaofEqG68Q3bOaNTdEUPuimbUTRFD7opm1E0RQ+6KZshnU0ZDbvc0ZOeRTXc435AOiSGzqhrSj6chO0cz5K5oRn22Rwy5K5pRN0UMuSuaUTdlDbnd06h9s4bc7mnUvllDbrcyapfRQzokRs2ZQr5HVTWkQ2LIrKqG9GNlyD5VDenH06j3lYghd0Uz6qasIbdbGbVL5ZB+rIzaZfSQDolRc0YP6ZAYNWf0kA6JUXM6Ot2zT6x6Jt/5MxrSj6dRv4esIbd7GrVv1pDbPY3at3JIP8SoOb/zA5ijxIl4XmNgGHkgPkHE4v9eje3lf89tBdGzq26YC9Urm4H4IPqsXqk5MWoI2TMKCIPRcKYPGA3nUTAKRsEooC4gplyllhpCbhnpgJgwJEYNIXtGOiAmDIlRQ8geEAAAPJ7D2w==
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0
+          </Value>
+          <Value index="1">
+            4.8475999087e-05
+          </Value>
+        </InformationKey>
+      </DataArray>
+      <DataArray type="Float32" Name="phase/mechanical/xi_sl / Pa" NumberOfComponents="12" format="binary" RangeMin="107387150.06927039" RangeMax="107387150.06927039">
+        AgAAAACAAACAOwAAPQAAACwAAAA=eF7twwENAAAIA6CAtjLpAzyEQYSNbCeqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq+vwBLfkk3nhe7cMBCQAACAOwgLYy6QM8hGCODZbtRFVVVVVVVVVVVVVVVVVV/QcedKYb
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            107387150.07
+          </Value>
+          <Value index="1">
+            107387150.07
+          </Value>
+        </InformationKey>
+      </DataArray>
+    </CellData>
+  </Piece>
+  </ImageData>
+</VTKFile>

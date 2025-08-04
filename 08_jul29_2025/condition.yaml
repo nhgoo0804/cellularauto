@@ -1,0 +1,37 @@
+# Configuration file for 3D Cellular Automaton simulation
+# For 3grains.vti: 10×10×10 cells, 0.001×0.001×0.001008 m³
+
+initial_microstructure:
+  path: '3grains.vti'
+  description: 'Path to initial microstructure VTI file with 3 grains'
+
+material:
+  grain_boundary_energy: 0.5  # J/m² - typical for metals
+  mobility_pre_exponential: 1.0e-4  # m⁴/(J·s) - for mm-scale grains
+  activation_energy: 140.0e3  # J/mol - typical for Al alloys
+  temperature: 873  # K (600°C) - typical annealing temperature
+
+thresholds:
+  min_misorientation: 1.0  # degrees - minimum to consider a boundary
+  lagb_threshold: 2.0  # degrees - low angle grain boundary threshold  
+  hagb_threshold: 15.0  # degrees - high angle grain boundary threshold
+
+energy:
+  stored_energy_factor: 1.0e6  # J/m³ - for moderately deformed material
+  max_kam_degrees: 10.0  # degrees - moderate deformation level
+
+kinetics:
+  beta_factor: 0.5  # CA kinetic factor (0.1-1.0)
+
+simulation:
+  max_time: 1000.0  # seconds - longer for mm-scale grains
+  max_steps: 10000  # maximum simulation steps
+  save_interval: 50  # steps - save every 50 steps
+  output_directory: 'output_3grains_simulation'
+
+# Notes on parameter selection for mm-scale microstructure:
+# - Your cells are ~1mm in size (0.001m), which is quite large
+# - This represents a very coarse-grained material
+# - Mobility is reduced compared to μm-scale to account for size
+# - Simulation time is increased to allow for evolution
+# - Save interval is reasonable for 10×10×10 grid

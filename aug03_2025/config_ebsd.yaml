@@ -1,0 +1,27 @@
+initial_microstructure:
+  type: ebsd
+  path: realistic_ebsd_data.csv
+  description: Path to EBSD data CSV file
+material:
+  grain_boundary_energy: 1.5
+  mobility_pre_exponential: 0.1
+  activation_energy: 140000.0
+  temperature: 1073
+thresholds:
+  min_misorientation: 1.0
+  lagb_threshold: 2.0
+  hagb_threshold: 10.0
+energy:
+  stored_energy_uniform: 10000.0
+  use_kam_energy: true
+  kam_energy_factor: 100000.0
+  max_kam_degrees: 15.0
+kinetics:
+  beta_factor: 5.0
+grain_detection:
+  misorientation_threshold: 5.0
+simulation:
+  max_time: 100.0
+  max_steps: 10000
+  save_interval: 50
+  output_directory: out_graingrowth1
